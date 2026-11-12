@@ -1,0 +1,33 @@
+name: Report a problem
+description: deslop-writing changed what you meant, missed something, or didn't run.
+labels: ["bug"]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What you asked for, what you expected, and what you got instead.
+    validations:
+      required: true
+  - type: textarea
+    id: text
+    attributes:
+      label: The text, before and after
+      description: A short sample helps most. Please leave out anything private.
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: The version line near the top of SKILL.md.
+      placeholder: "1.11.1"
+  - type: dropdown
+    id: agent
+    attributes:
+      label: Which agent ran it?
+      options:
+        - Claude Code (terminal or code editor)
+        - Claude desktop app, Code tab
+        - Codex CLI
+        - ChatGPT desktop app, Codex mode
+        - The Raycast or chat prompt
+        - Something else
