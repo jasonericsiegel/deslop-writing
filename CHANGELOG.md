@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.13.0 (2026-11-23)
+
+- The second read now names its model: Sonnet in Claude Code, and GPT-6.1 Terra at medium effort in Codex. If that model isn't available, it uses the one your session is on.
+- The fresh agent gets its instructions, your text, and the rewrite, but not the list of AI phrases.
+- Fixed: a `codex exec` run could skip the second read. It now starts its own helper agent.
+
 ## 1.12.0 (2026-11-12)
 
 First public release.
