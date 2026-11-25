@@ -6,6 +6,8 @@ deslop-writing is a free skill for Claude Code, Codex, and other AI agents. Ask 
 npx skills add jasonericsiegel/deslop-writing
 ```
 
+See it in action at [jasoneric.com/deslop-writing](https://jasoneric.com/deslop-writing/).
+
 ![A bike club newsletter sentence, deslopped in Normal mode, shown as tracked changes. Struck in red: "Exciting news! We're thrilled to announce that our", "isn't just a ride — it's a", "vibrant community experience that fosters connection", and "showcases the breathtaking beauty of". In green: "Our", "is a", "chance to meet people", and "see". The result reads: Our Saturday group ride is a chance to meet people and see the riverfront.](media/deslop-before-after.png)
 
 ## What it does

@@ -31,7 +31,7 @@ The five raw dimension scores (0–2) are the same regardless of profile. What c
 - **PRECISION** — for terms-heavy / meaning-sensitive text (technical prose, debriefs with names + decisions, anything where a flattened term is a real loss). Weights **meaning + terms-of-art at 3×**, plainness at 1×. Reflects the real job: edit someone else's careful prose without breaking it. A rewrite that buys plainness by dropping a claim or flattening a term should *lose* here — that's the point.
 - **LOOSE** — for casual / reflective everyday prose with no precious terms (an impressions email, a personal note, fresh AI-generated copy being de-slopped). Weights **plainness at 3×, economy at 2×**, terms at 1× (there are few to protect). Aggressive flattening is *good* here; meaning still matters (2×) so it can't go fully off the rails.
 
-**Mode ↔ profile pairing (for the two-mode design):** grade PRECISION-mode rewrites of precision content under the PRECISION profile; grade LOOSE-mode rewrites of casual content under the LOOSE profile. The two-mode hypothesis holds if each mode wins on its home-turf content under that content's profile.
+**Mode ↔ profile pairing (for the two-mode design):** grade PRECISION-mode rewrites of precision content under the PRECISION profile; grade LOOSE-mode rewrites of casual content under the LOOSE profile.
 
 ## Grading a fresh draft (drafted-cell re-anchoring)
 
@@ -63,7 +63,6 @@ The second case is easy to get wrong. In a four-variant design where B is `deslo
    - Rule content — does each catalog/rule line earn its place, or does removing it not hurt (or help)?
    - Prompt wording — the exact phrasing that applies a rule without overreaching.
    - Process — one combined pass vs. subtract → add → audit loop, graded on **cost and quality**.
-   - Auditor — same-model fresh inference vs. a different (cheaper) model vs. human.
 3. **Judge.** Score each output on the five dimensions. Watch for the known failure mode: over-simplification that flattens a term of art (the meaning-fidelity dimension catches it).
 4. **Confirmation round.** Re-test the apparent winner on fresh cases before locking it in.
 5. **Feed the catalog.** When a graded failure teaches a new rule or guardrail, add it to the matching reference file and bump that file's version line. That is the compounding loop.

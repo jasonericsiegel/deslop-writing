@@ -5,8 +5,8 @@ license: MIT
 compatibility: Any agent that loads skills. The optional tell scanner needs Python 3.10 or later.
 allowed-tools: Read Write Edit Grep Glob Bash Agent AskUserQuestion
 metadata:
-  version: 1.13.0
-  changed: 2026-11-22
+  version: 1.13.1
+  changed: 2026-11-25
 ---
 
 # Deslop Writing

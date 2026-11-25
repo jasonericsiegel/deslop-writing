@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.13.1 (2026-11-25)
+
+- Added a link to deslop-writing's page, [jasoneric.com/deslop-writing](https://jasoneric.com/deslop-writing/), in the README.
+- Removed two outdated notes from the quality rubric.
+
 ## 1.13.0 (2026-11-23)
 
 - The second read now names its model: Sonnet in Claude Code, and GPT-6.1 Terra at medium effort in Codex. If that model isn't available, it uses the one your session is on.
